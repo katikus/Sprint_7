@@ -1,0 +1,2 @@
+[32mINFO    [0m conftest:conftest.py:29 ✅ Курьер создан: {'login': 'wwwuxeekqu', 'password': 'wzhaqiisxj', 'first_name': 'ttscsujbyv'}
+[32mINFO    [0m conftest:conftest.py:48 🗑️ Курьер 478589 удален

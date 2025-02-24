@@ -1,0 +1,3 @@
+[32mINFO    [0m conftest:conftest.py:29 ✅ Курьер создан: {'login': 'cwglivbohg', 'password': 'bpowivxhzv', 'first_name': 'eusewqkaqz'}
+[32mINFO    [0m test_courier_create:test_courier_create.py:70 ✅ Код ответа 201 при создании курьера {'resp_data': {'ok': True}, 'data': {'login': 'cwglivbohg', 'password': 'bpowivxhzv', 'first_name': 'eusewqkaqz'}}
+[32mINFO    [0m conftest:conftest.py:48 🗑️ Курьер 478587 удален
