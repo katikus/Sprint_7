@@ -1,0 +1,3 @@
+[32mINFO    [0m conftest:conftest.py:29 ✅ Курьер создан: {'login': 'lkmcqiaxcs', 'password': 'eulmxnjgpj', 'first_name': 'mlmtuqliia'}
+[32mINFO    [0m test_courier_login:test_courier_login.py:41 ✅ Логин не успешен 500, данные: {'login': 'lkmcqiaxcs', 'first_name': 'mlmtuqliia'}
+[32mINFO    [0m conftest:conftest.py:48 🗑️ Курьер 479643 удален

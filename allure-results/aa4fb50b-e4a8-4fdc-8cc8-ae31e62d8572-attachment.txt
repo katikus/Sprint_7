@@ -1,6 +1,0 @@
- 
- 2025-02-24 13:43:38,694 [INFO] ✅ Курьер создан: {'login': 'cwglivbohg', 'password': 'bpowivxhzv', 'first_name': 'eusewqkaqz'}
- 
- 2025-02-24 13:43:38,696 [INFO] ✅ Код ответа 201 при создании курьера {'resp_data': {'ok': True}, 'data': {'login': 'cwglivbohg', 'password': 'bpowivxhzv', 'first_name': 'eusewqkaqz'}}
- 
- 2025-02-24 13:43:39,609 [INFO] 🗑️ Курьер 478587 удален

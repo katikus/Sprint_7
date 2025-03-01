@@ -1,0 +1,3 @@
+[32mINFO    [0m conftest:conftest.py:29 ✅ Курьер создан: {'login': 'ojskfnucbc', 'password': 'zrzjykkkdi', 'first_name': 'wewmupnrrn'}
+[32mINFO    [0m test_courier_login:test_courier_login.py:59 ✅ Логин не успешен 400, данные: {'login': '', 'password': 'zrzjykkkdi', 'first_name': 'wewmupnrrn'}
+[32mINFO    [0m conftest:conftest.py:48 🗑️ Курьер 479644 удален

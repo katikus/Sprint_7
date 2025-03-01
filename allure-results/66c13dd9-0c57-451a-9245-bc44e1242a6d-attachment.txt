@@ -1,0 +1,2 @@
+[32mINFO    [0m conftest:conftest.py:29 ✅ Курьер создан: {'login': 'batkdltuhg', 'password': 'ndkksbefyq', 'first_name': 'betmqniuxh'}
+[32mINFO    [0m conftest:conftest.py:48 🗑️ Курьер 479639 удален

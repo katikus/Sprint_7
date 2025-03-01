@@ -1,6 +1,0 @@
- 
- 2025-02-24 13:43:46,941 [INFO] ✅ Курьер создан: {'login': 'ajbmguakqn', 'password': 'zssyoctbwo', 'first_name': 'aqhkikbhbk'}
- 
- 2025-02-24 13:43:46,944 [INFO] ✅ Код ответа 201 при создании курьера {'resp_data': {'ok': True}, 'data': {'login': 'ajbmguakqn', 'password': 'zssyoctbwo', 'first_name': 'aqhkikbhbk'}}
- 
- 2025-02-24 13:43:47,767 [INFO] 🗑️ Курьер 478591 удален

@@ -1,11 +1,12 @@
-import requests
 import random
 import string
+import allure
 
 from data.data import UserData
 from support_functions.base import Base
 
 def create_random_courier_data():
+    @allure.step("Генерация случайных данных для курьера")
     def generate_random_string(length):
         letters = string.ascii_lowercase
         random_string = ''.join(random.choice(letters) for i in range(length))
@@ -20,7 +21,7 @@ def create_random_courier_data():
 
 
 class Courier(Base):
-
+    @allure.step("Регистрация нового курьера")
     def register_new_courier(self, login, password, firstName):
 
         url = UserData.COURIER_URL
@@ -33,6 +34,7 @@ class Courier(Base):
 
         return self.base_request(url, method="POST", payload=payload)
 
+    @allure.step("Авторизация курьера")
     def login_courier(self, login=None, password=None, first_name=None):
         url = UserData.LOGIN_URL
 
@@ -44,7 +46,7 @@ class Courier(Base):
 
         return self.base_request(url, method="POST", payload=payload)
 
-
+    @allure.step("Удаление курьера")
     def delete_courier(self, c_id):
         url = f"{UserData.COURIER_URL}/{c_id}"
 

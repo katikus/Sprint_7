@@ -1,6 +1,4 @@
 import requests
-from data.data import UserData
-
 
 class Base:
     def base_request(self, url, method="POST", payload=None):
@@ -22,26 +20,14 @@ class Base:
 
             # добавляем код ответа от сервера
             response_data["resp_code"] = response.status_code
-
-            # Если успешный код ответа (200-299), получаем тело ответа
-            if 200 <= response.status_code < 300:
-                try:
-                    response_data["resp_data"] = response.json()  # Парсим JSON, если он есть
-                except ValueError:
-                    response_data["resp_data"] = "No JSON response"
-            else:
-                # В случае ошибки, добавляем информацию об ошибке
-                response_data["url"] = response.url
-                try:
-                    response_data["message"] = response.json().get('message', 'No message')
-                except ValueError:
-                    response_data["message"] = "Non-JSON error response"
+            response_data["text"] = response.text
+            response_data["resp_json_data"] = response.json()
+            response_data["message"] = response.json().get('message', 'No message')
 
         except requests.exceptions.RequestException as e:
             # Обработка ошибок запроса, например, отсутствие сети
             response_data["resp_code"] = 500  # Общий код для ошибки
             response_data["message"] = f"Request failed: {str(e)}"
-
         # возвращаем список
         return response_data
 

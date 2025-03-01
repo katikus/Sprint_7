@@ -1,0 +1,6 @@
+ 
+ 2025-03-01 13:28:37,151 [INFO] ✅ Курьер создан: {'login': 'pjgrdzoilo', 'password': 'xlhjcmnxpr', 'first_name': 'obpubqfwyu'}
+ 
+ 2025-03-01 13:28:37,568 [INFO] ✅ Логин не успешен 404, данные: {'login': 'pjgrdzoilo1', 'password': 'xlhjcmnxpr', 'first_name': 'obpubqfwyu'}
+ 
+ 2025-03-01 13:28:38,417 [INFO] 🗑️ Курьер 479646 удален
