@@ -1,0 +1,6 @@
+ 
+ 2025-03-01 13:27:21,332 [INFO] ✅ Курьер создан: {'login': 'rviskkkqns', 'password': 'jvijirtyvk', 'first_name': 'wxmjdfzwfq'}
+ 
+ 2025-03-01 13:27:21,335 [INFO] ✅ Код ответа 201 при создании курьера {'resp_json_data': {'ok': True}, 'text': '{"ok":true}', 'resp_code': 201, 'data': {'login': 'rviskkkqns', 'password': 'jvijirtyvk', 'first_name': 'wxmjdfzwfq'}}
+ 
+ 2025-03-01 13:27:22,214 [INFO] 🗑️ Курьер 479638 удален

@@ -1,0 +1,6 @@
+ 
+ 2025-03-01 13:28:33,747 [INFO] ✅ Курьер создан: {'login': 'ojskfnucbc', 'password': 'zrzjykkkdi', 'first_name': 'wewmupnrrn'}
+ 
+ 2025-03-01 13:28:34,167 [INFO] ✅ Логин не успешен 400, данные: {'login': '', 'password': 'zrzjykkkdi', 'first_name': 'wewmupnrrn'}
+ 
+ 2025-03-01 13:28:35,052 [INFO] 🗑️ Курьер 479644 удален

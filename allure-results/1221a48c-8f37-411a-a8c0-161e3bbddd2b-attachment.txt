@@ -1,0 +1,6 @@
+ 
+ 2025-03-01 13:28:35,479 [INFO] ✅ Курьер создан: {'login': 'ixxrjctekm', 'password': 'uwuoziyqfp', 'first_name': 'thvjnsxcqr'}
+ 
+ 2025-03-01 13:28:35,896 [INFO] ✅ Логин не успешен 400, данные: {'login': 'ixxrjctekm', 'password': '', 'first_name': 'thvjnsxcqr'}
+ 
+ 2025-03-01 13:28:36,727 [INFO] 🗑️ Курьер 479645 удален

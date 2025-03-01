@@ -1,0 +1,3 @@
+[32mINFO    [0m conftest:conftest.py:29 ✅ Курьер создан: {'login': 'qcmgwgnuud', 'password': 'esbimnzfxu', 'first_name': 'kkvvnozzha'}
+[32mINFO    [0m test_courier_login:test_courier_login.py:22 ✅ Логин успешен 200
+[32mINFO    [0m conftest:conftest.py:48 🗑️ Курьер 479641 удален

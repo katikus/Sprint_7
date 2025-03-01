@@ -1,0 +1,3 @@
+[32mINFO    [0m conftest:conftest.py:29 ✅ Курьер создан: {'login': 'rviskkkqns', 'password': 'jvijirtyvk', 'first_name': 'wxmjdfzwfq'}
+[32mINFO    [0m test_courier_create:test_courier_create.py:18 ✅ Код ответа 201 при создании курьера {'resp_json_data': {'ok': True}, 'text': '{"ok":true}', 'resp_code': 201, 'data': {'login': 'rviskkkqns', 'password': 'jvijirtyvk', 'first_name': 'wxmjdfzwfq'}}
+[32mINFO    [0m conftest:conftest.py:48 🗑️ Курьер 479638 удален
